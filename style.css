@@ -36,14 +36,41 @@ li {
 
 .nav-logo {
     font-size: 25px;
-
 }
 
 .nav-item {
     column-gap: 25px;
 }
 
+.nav-logo,
+.nav-link,
+.btn {
+    color: #fff;
+}
+
 .nav-link:hover {
     color: #d9d9d9;
+}
 
+.btn {
+    padding: 6px 24px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Home */
+
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("niebo.jpg");
+    background-size: cover;
+    background-position: center;
 }
