@@ -91,6 +91,10 @@ li {
     box-shadow: rgba(0, 0, 0, .1);
 }
 
+.signup-form {
+    display: none;
+}
+
 .form-close {
     position: absolute;
     top: 10px;
